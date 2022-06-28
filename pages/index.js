@@ -91,7 +91,7 @@ export default function Home({ data }) {
 
       <Box as='footer'>
         <Container maxW='1200px'>
-          <Box borderTop='1px' borderColor='gray.100' pt='8'>
+          <Box borderTop='1px' borderColor='gray.100' py='8'>
             <Text>Developed by <a href="https://nathanlawson.co.uk">Nathan Lawson</a> &bull; Ha&apos;way The Lads</Text>
           </Box>
         </Container>
