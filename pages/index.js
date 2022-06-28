@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Script from 'next/script'
 import { Box, Center, CircularProgress, CircularProgressLabel, Container, Grid, GridItem, Heading, Icon, SimpleGrid, Text } from '@chakra-ui/react'
 import { IoTicketOutline } from "react-icons/io5"
 
@@ -10,6 +11,20 @@ export default function Home({ data }) {
         <meta name="description" content="Track ticket sales for upcoming Sunderland AFC fixtures at the Stadium of Light" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-YEZY97Z1L8"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-YEZY97Z1L8');
+        `}
+      </Script>
 
       <Box as='header' bg='red.600' color='white' p='10'>
         <Container maxW='1200px'>
