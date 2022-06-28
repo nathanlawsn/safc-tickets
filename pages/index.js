@@ -9,7 +9,7 @@ export default function Home({ data }) {
       <Head>
         <title>SAFC Ticket Tracker</title>
         <meta name="description" content="Track ticket sales for upcoming Sunderland AFC fixtures at the Stadium of Light" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.svg" />
       </Head>
 
       <Script
@@ -84,10 +84,12 @@ export default function Home({ data }) {
           
           </SimpleGrid>
 
+          <Text color="gray.500" fontSize='sm'>The information contained in this website is for general information purposes only. If you're looking to purchase SAFC tickets then you need to visit <a href="https://www.eticketing.co.uk/safc">eticketing.co.uk/safc</a></Text>
+
         </Container>
       </Box>
 
-      <Box as='footer' py='10'>
+      <Box as='footer'>
         <Container maxW='1200px'>
           <Box borderTop='1px' borderColor='gray.100' pt='8'>
             <Text>Developed by <a href="https://nathanlawson.co.uk">Nathan Lawson</a> &bull; Ha&apos;way The Lads</Text>
