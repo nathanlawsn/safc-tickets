@@ -38,7 +38,7 @@ export default function Home({ data }) {
       <Box as='main' py='10'>
         <Container maxW='1200px'>
 
-          <Heading as='h2' size='md'>Season Ticket Sales</Heading>
+          <Heading as='h2' size='md' px='6'>Season Ticket Sales</Heading>
 
           <SimpleGrid columns={[1, 1, 2]} gap='6' py='8'>
 
@@ -85,6 +85,8 @@ export default function Home({ data }) {
           </SimpleGrid>
 
           <Text color="gray.500" fontSize='sm'>The information contained in this website is for general information purposes only. If you&apos;re looking to purchase SAFC tickets then you need to visit <a href="https://www.eticketing.co.uk/safc">eticketing.co.uk/safc</a></Text>
+
+          <Text color="gray.500" fontSize='sm' mt='4'>Data source: <a href="https://safcticketing.azurewebsites.net/api/tickets">safcticketing.azurewebsites.net/api/tickets</a></Text>
 
         </Container>
       </Box>
