@@ -65,7 +65,7 @@ export default function Home({ data }) {
                   <Box w="100%" boxShadow='base' borderRadius='lg' p='6'>
                     <Text fontSize='lg'>Total Seats Made Available for Sale:</Text>
                     <Text fontSize='xl' fontWeight='500'>{data.totalSeatsMadeAvailableForSale}</Text>
-                    <Text color='gray.500' fontSize='sm' pt='1'>*Excludes corporate and away fans sales</Text>
+                    <Text color='gray.500' fontSize='sm' pt='1'>*Excludes sales for corporate and away fans</Text>
                   </Box>
                 </GridItem>
 
