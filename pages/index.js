@@ -84,7 +84,7 @@ export default function Home({ data }) {
           
           </SimpleGrid>
 
-          <Text color="gray.500" fontSize='sm'>The information contained in this website is for general information purposes only. If you're looking to purchase SAFC tickets then you need to visit <a href="https://www.eticketing.co.uk/safc">eticketing.co.uk/safc</a></Text>
+          <Text color="gray.500" fontSize='sm'>The information contained in this website is for general information purposes only. If you&apos;re looking to purchase SAFC tickets then you need to visit <a href="https://www.eticketing.co.uk/safc">eticketing.co.uk/safc</a></Text>
 
         </Container>
       </Box>
